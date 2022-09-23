@@ -205,7 +205,7 @@
                 .map(function(m){
                   choosed[getKey(m)] = 1;
                   list[m.index].style.color = color;
-                  return '姓名:' + m.name + '<br/>' + '手机号:' + m.phone; 
+                  return '姓名:' + m.name + '<br/>' + '学号:' + m.phone; 
                 });
             localStorage.setItem('choosed', JSON.stringify(choosed));
             return ret;
